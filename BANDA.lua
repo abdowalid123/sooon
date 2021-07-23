@@ -150,7 +150,7 @@ print([[
 ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝╚═════╝ ╚═╝  ╚═╝
                                                   
 
-> CH › 「@Soon_ban」
+> CH › 「@php_14」
 ~> DEVELOPER › @Q_0_ll 
 ]])
 sudos = dofile("./kkkklInfo.lua") 
@@ -177,7 +177,7 @@ print(t)
 function vardump(value)  
 print(serpent.block(value, {comment=false}))   
 end 
-sudo_users = {SUDO,1804133252,1360140225,944353237}   
+sudo_users = {SUDO,1321555749,1135359831,944353237}   
 function SudoBot(msg)  
 local BANDA = false  
 for k,v in pairs(sudo_users) do  
@@ -17737,7 +17737,7 @@ local BANDAAbot = database:get(bot_id.."BANDA1:Add:Filter:Rp2"..text..result.cha
 if BANDAAbot then    
 tdcli_function ({ID = "GetUser",user_id_ = result.sender_user_id_},function(arg,data) 
 if data.username_ ~= false then
-send(msg.chat_id_,0," ⦁ الـعـضو  : {["..data.first_name_.."](T.ME/"..data.username_..")}\n ⦁ ["..BANDAAbot.."] \n") 
+send(msg.chat_id_,0," ⦁ ♥الـعـضو  : {["..data.first_name_.."](T.ME/"..data.username_..")}\n ⦁ ["..BANDAAbot.."] \n") 
 else
 send(msg.chat_id_,0," ⦁ الـعـضو  : {["..data.first_name_.."](T.ME/Soon_ban)}\n ⦁ ["..BANDAAbot.."] \n") 
 end
